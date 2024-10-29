@@ -17,10 +17,9 @@
     - Acesse [python.org/downloads](https://www.python.org/downloads/) e baixe a versão mais recente do Python.
     - Durante a instalação:
         - Marque **Add Python to PATH** para garantir que o Python seja adicionado ao PATH do sistema.
-        - Selecione **Install Now**.
-        
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/04764f98-e625-4d15-9662-358e87027170/4091dd94-485f-47a0-b341-bf057f446663/image.png)
-        
+        - Selecione **Install Now**.        
+![image](https://github.com/user-attachments/assets/5c1fa7ed-d0cd-4f3b-b35e-95bc1bd6949e)
+
 3. **Confirmar Instalação do Python**:
     - No terminal do **VS Code**, digite:
         
@@ -30,7 +29,7 @@
         
     - A versão do Python deve aparecer, confirmando que foi instalado corretamente.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/04764f98-e625-4d15-9662-358e87027170/9b67e9e4-bd44-4747-b064-ab5f1f11c3fb/image.png)
+![image](https://github.com/user-attachments/assets/d6b5320d-23d2-4d0f-b128-331110a2e647)
     
 
 ---
@@ -70,7 +69,7 @@
         Daniel Biehl
         [robotcode.io](http://robotcode.io/)
         
-        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/04764f98-e625-4d15-9662-358e87027170/b873f4b9-22a4-40f1-a0ad-565795b32cdd/image.png)
+![image](https://github.com/user-attachments/assets/6b5346d5-3025-4436-a6b0-266880ff3050)
         
 
 ---
@@ -136,6 +135,6 @@
 
 Após a execução, o Robot Framework cria arquivos de relatório e log (`report.html` e `log.html`) na pasta do projeto. Abra esses arquivos em um navegador para ver os detalhes dos testes.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/04764f98-e625-4d15-9662-358e87027170/87ce2aaa-4c17-4dfe-b43f-63a6c57eeaf2/image.png)
+![image](https://github.com/user-attachments/assets/7c72f029-667e-4557-a0e1-815089ee13ad)
 
 Pronto! Agora você tem um projeto básico com o Robot Framework.
