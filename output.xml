@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.4 on win32)" generated="2024-10-29T18:41:09.900770" rpa="false" schemaversion="5">
-<suite id="s1" name="Primeiro Teste" source="C:\Users\Samuel\Desktop\meu_projeto_robot\primeiro_teste.robot">
-<test id="s1-t1" name="Visita a página inicial" line="7">
+<robot generator="Robot 7.1.1 (Python 3.12.4 on win32)" generated="2024-10-29T19:26:43.052097" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeiro Teste" source="C:\Users\Samuel\Desktop\Robot_Mercado_Livre\primeiro_teste.robot">
+<test id="s1-t1" name="Visita a página inicial" line="8">
 <kw name="New Browser" owner="Browser">
-<msg time="2024-10-29T18:41:10.057341" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Samuel\\Desktop\\meu_projeto_robot\\browser\\traces\\ac5d9649-e8c0-4075-8fa8-153badd32a7a"}</msg>
-<msg time="2024-10-29T18:41:10.094833" level="INFO">Starting Browser process C:\Users\Samuel\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 63197</msg>
-<msg time="2024-10-29T18:41:10.095835" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Samuel\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '63197']</msg>
-<msg time="2024-10-29T18:41:10.894336" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Samuel\\Desktop\\meu_projeto_robot\\browser\\traces\\ac5d9649-e8c0-4075-8fa8-153badd32a7a"}</msg>
+<msg time="2024-10-29T19:26:43.290059" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Samuel\\Desktop\\Robot_Mercado_Livre\\browser\\traces\\e1b6ad36-d24e-42ab-ac01-3bcd1e2c99cf"}</msg>
+<msg time="2024-10-29T19:26:43.359843" level="INFO">Starting Browser process C:\Users\Samuel\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 50903</msg>
+<msg time="2024-10-29T19:26:43.359843" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Samuel\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '50903']</msg>
+<msg time="2024-10-29T19:26:45.810271" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Samuel\\Desktop\\Robot_Mercado_Livre\\browser\\traces\\e1b6ad36-d24e-42ab-ac01-3bcd1e2c99cf"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-10-29T18:41:10.057341" elapsed="0.837629"/>
+<status status="PASS" start="2024-10-29T19:26:43.289064" elapsed="2.521207"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2024-10-29T18:41:14.529873" level="INFO">Successfully initialized new page object and opened url: https://www.mercadolivre.com.br</msg>
-<msg time="2024-10-29T18:41:14.529873" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2024-10-29T19:27:08.847276" level="INFO">Successfully initialized new page object and opened url: https://www.mercadolivre.com.br</msg>
+<msg time="2024-10-29T19:27:08.848275" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2024-10-29T18:41:10.895495" elapsed="3.634378"/>
+<status status="PASS" start="2024-10-29T19:26:45.811271" elapsed="23.037004"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-10-29T18:41:15.827634" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-10-29T19:27:10.305435" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <arg>fullPage=True</arg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-10-29T18:41:14.529873" elapsed="1.298760"/>
+<status status="PASS" start="2024-10-29T19:27:08.849277" elapsed="1.456158"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2024-10-29T18:41:15.828633" level="INFO">Fills the text 'Mouse gamer' in the given field.</msg>
+<msg time="2024-10-29T19:27:10.305669" level="INFO">Fills the text 'Mouse gamer' in the given field.</msg>
 <arg>css=input[placeholder="Buscar produtos, marcas e muito mais…"]</arg>
 <arg>Mouse gamer</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:15.828633" elapsed="0.030007"/>
+<status status="PASS" start="2024-10-29T19:27:10.305669" elapsed="0.029751"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:15.859640" level="INFO">Clicks the element 'css=button.nav-search-btn[type=submit]'.</msg>
+<msg time="2024-10-29T19:27:10.336420" level="INFO">Clicks the element 'css=button.nav-search-btn[type=submit]'.</msg>
 <arg>css=button.nav-search-btn[type=submit]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:15.858640" elapsed="2.370969"/>
+<status status="PASS" start="2024-10-29T19:27:10.336420" elapsed="3.669342"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:18.230611" level="INFO">Clicks the element 'css=.ui-search-layout__item &gt;&gt; nth=0'.</msg>
+<msg time="2024-10-29T19:27:14.006761" level="INFO">Clicks the element 'css=.ui-search-layout__item &gt;&gt; nth=0'.</msg>
 <arg>css=.ui-search-layout__item &gt;&gt; nth=0</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:18.229609" elapsed="2.017370"/>
+<status status="PASS" start="2024-10-29T19:27:14.006761" elapsed="1.295452"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-10-29T18:41:21.247099" level="INFO">Slept 1 second.</msg>
+<msg time="2024-10-29T19:27:16.304008" level="INFO">Slept 1 second.</msg>
 <arg>1</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-10-29T18:41:20.246979" elapsed="1.000120"/>
+<status status="PASS" start="2024-10-29T19:27:15.303210" elapsed="1.000798"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:21.247881" level="INFO">Clicks the element 'css=.ui-pdp-gallery__figure &gt;&gt; nth=0'.</msg>
+<msg time="2024-10-29T19:27:16.305009" level="INFO">Clicks the element 'css=.ui-pdp-gallery__figure &gt;&gt; nth=0'.</msg>
 <arg>css=.ui-pdp-gallery__figure &gt;&gt; nth=0</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:21.247099" elapsed="0.573858"/>
+<status status="PASS" start="2024-10-29T19:27:16.304008" elapsed="0.524713"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:21.821957" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<msg time="2024-10-29T19:27:16.829721" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
 <arg>css=button[title="Next (arrow right)"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:21.821957" elapsed="0.855733"/>
+<status status="PASS" start="2024-10-29T19:27:16.828721" elapsed="0.246056"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:22.678692" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<msg time="2024-10-29T19:27:17.076779" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
 <arg>css=button[title="Next (arrow right)"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:22.678692" elapsed="0.213197"/>
+<status status="PASS" start="2024-10-29T19:27:17.075778" elapsed="0.592348"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-10-29T18:41:22.891889" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<msg time="2024-10-29T19:27:17.669127" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
 <arg>css=button[title="Next (arrow right)"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-10-29T18:41:22.891889" elapsed="0.287050"/>
+<status status="PASS" start="2024-10-29T19:27:17.669127" elapsed="0.440592"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-10-29T18:41:28.180192" level="INFO">Slept 5 seconds.</msg>
+<msg time="2024-10-29T19:27:23.111962" level="INFO">Slept 5 seconds.</msg>
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-10-29T18:41:23.178939" elapsed="5.001253"/>
+<status status="PASS" start="2024-10-29T19:27:18.110720" elapsed="5.001242"/>
 </kw>
-<status status="PASS" start="2024-10-29T18:41:10.056345" elapsed="18.124860"/>
+<status status="PASS" start="2024-10-29T19:26:43.288054" elapsed="39.823908"/>
 </test>
-<status status="PASS" start="2024-10-29T18:41:09.902903" elapsed="18.410539"/>
+<status status="PASS" start="2024-10-29T19:26:43.054099" elapsed="40.187204"/>
 </suite>
 <statistics>
 <total>

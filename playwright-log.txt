@@ -1,0 +1,64 @@
+{"level":30,"time":"2024-10-29T22:26:44.140Z","pid":11656,"hostname":"SAMUEL","msg":"Listening on 50903"}
+(node:11656) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-10-29T22:26:44.487Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-10-29T22:26:45.807Z","pid":11656,"hostname":"SAMUEL","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2024-10-29T22:26:45.808Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-10-29T22:26:45.808Z","pid":11656,"hostname":"SAMUEL","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-10-29T22:26:45.815Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-10-29T22:26:45.816Z","pid":11656,"hostname":"SAMUEL","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-10-29T22:26:45.850Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active context"}
+{"level":30,"time":"2024-10-29T22:27:07.885Z","pid":11656,"hostname":"SAMUEL","msg":"Video path: undefined"}
+{"level":30,"time":"2024-10-29T22:27:07.885Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active page"}
+{"level":30,"time":"2024-10-29T22:27:08.845Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method newPage"}
+{"level":30,"time":"2024-10-29T22:27:08.854Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-10-29T22:27:08.855Z","pid":11656,"hostname":"SAMUEL","Take screenshot with options: ":{"path":"C:\\Users\\Samuel\\Desktop\\Robot_Mercado_Livre\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":true,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-10-29T22:27:10.303Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-10-29T22:27:10.307Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-10-29T22:27:10.308Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Buscar produtos, marcas e muito mais…\"] in page."}
+{"level":30,"time":"2024-10-29T22:27:10.334Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method fillText"}
+{"level":30,"time":"2024-10-29T22:27:10.338Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:10.338Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=button.nav-search-btn[type=submit] in page."}
+{"level":30,"time":"2024-10-29T22:27:14.005Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:14.008Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:14.008Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=.ui-search-layout__item >> nth=0 in page."}
+{"level":30,"time":"2024-10-29T22:27:15.301Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:16.306Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:16.306Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=.ui-pdp-gallery__figure >> nth=0 in page."}
+{"level":30,"time":"2024-10-29T22:27:16.826Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:16.831Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:16.831Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=button[title=\"Next (arrow right)\"] in page."}
+{"level":30,"time":"2024-10-29T22:27:17.072Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:17.079Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:17.079Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=button[title=\"Next (arrow right)\"] in page."}
+{"level":30,"time":"2024-10-29T22:27:17.667Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:17.671Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method click"}
+{"level":30,"time":"2024-10-29T22:27:17.671Z","pid":11656,"hostname":"SAMUEL","msg":"Strict mode is enabled, find Locator with css=button[title=\"Next (arrow right)\"] in page."}
+{"level":30,"time":"2024-10-29T22:27:18.109Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method click"}
+{"level":30,"time":"2024-10-29T22:27:23.118Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.121Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.124Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.126Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.129Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active context"}
+{"level":30,"time":"2024-10-29T22:27:23.129Z","pid":11656,"hostname":"SAMUEL","msg":"Changing current active page: page=6fac25f2-2809-420a-b098-2872ebea524e"}
+{"level":30,"time":"2024-10-29T22:27:23.129Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active page"}
+{"level":30,"time":"2024-10-29T22:27:23.133Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.135Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.137Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-29T22:27:23.138Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-29T22:27:23.140Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-10-29T22:27:23.140Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-10-29T22:27:23.142Z","pid":11656,"hostname":"SAMUEL","msg":"Changing current active page: page=6fac25f2-2809-420a-b098-2872ebea524e"}
+{"level":30,"time":"2024-10-29T22:27:23.142Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active page"}
+{"level":30,"time":"2024-10-29T22:27:23.147Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.148Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.150Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active context"}
+{"level":30,"time":"2024-10-29T22:27:23.150Z","pid":11656,"hostname":"SAMUEL","msg":"Changing current active page: page=6fac25f2-2809-420a-b098-2872ebea524e"}
+{"level":30,"time":"2024-10-29T22:27:23.150Z","pid":11656,"hostname":"SAMUEL","msg":"Changed active page"}
+{"level":30,"time":"2024-10-29T22:27:23.154Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-10-29T22:27:23.196Z","pid":11656,"hostname":"SAMUEL","msg":"Removed page=0e915e75-7f01-4e04-95be-5e2d46135d0d from context=b445f6a9-c86b-4441-9992-dd97f2a2fc76 page stack"}
+{"level":30,"time":"2024-10-29T22:27:23.236Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-10-29T22:27:23.249Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.250Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-10-29T22:27:23.321Z","pid":11656,"hostname":"SAMUEL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-10-29T22:27:23.575Z","pid":11656,"hostname":"SAMUEL","msg":"End of node method closeAllBrowsers"}
