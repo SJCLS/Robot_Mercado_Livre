@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.4 on win32)" generated="2024-10-29T18:41:09.900770" rpa="false" schemaversion="5">
+<suite id="s1" name="Primeiro Teste" source="C:\Users\Samuel\Desktop\meu_projeto_robot\primeiro_teste.robot">
+<test id="s1-t1" name="Visita a página inicial" line="7">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-10-29T18:41:10.057341" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Samuel\\Desktop\\meu_projeto_robot\\browser\\traces\\ac5d9649-e8c0-4075-8fa8-153badd32a7a"}</msg>
+<msg time="2024-10-29T18:41:10.094833" level="INFO">Starting Browser process C:\Users\Samuel\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js using port 63197</msg>
+<msg time="2024-10-29T18:41:10.095835" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Samuel\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '63197']</msg>
+<msg time="2024-10-29T18:41:10.894336" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Samuel\\Desktop\\meu_projeto_robot\\browser\\traces\\ac5d9649-e8c0-4075-8fa8-153badd32a7a"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-10-29T18:41:10.057341" elapsed="0.837629"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-10-29T18:41:14.529873" level="INFO">Successfully initialized new page object and opened url: https://www.mercadolivre.com.br</msg>
+<msg time="2024-10-29T18:41:14.529873" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-10-29T18:41:10.895495" elapsed="3.634378"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-10-29T18:41:15.827634" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>fullPage=True</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-10-29T18:41:14.529873" elapsed="1.298760"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-10-29T18:41:15.828633" level="INFO">Fills the text 'Mouse gamer' in the given field.</msg>
+<arg>css=input[placeholder="Buscar produtos, marcas e muito mais…"]</arg>
+<arg>Mouse gamer</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:15.828633" elapsed="0.030007"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:15.859640" level="INFO">Clicks the element 'css=button.nav-search-btn[type=submit]'.</msg>
+<arg>css=button.nav-search-btn[type=submit]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:15.858640" elapsed="2.370969"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:18.230611" level="INFO">Clicks the element 'css=.ui-search-layout__item &gt;&gt; nth=0'.</msg>
+<arg>css=.ui-search-layout__item &gt;&gt; nth=0</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:18.229609" elapsed="2.017370"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-29T18:41:21.247099" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-29T18:41:20.246979" elapsed="1.000120"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:21.247881" level="INFO">Clicks the element 'css=.ui-pdp-gallery__figure &gt;&gt; nth=0'.</msg>
+<arg>css=.ui-pdp-gallery__figure &gt;&gt; nth=0</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:21.247099" elapsed="0.573858"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:21.821957" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<arg>css=button[title="Next (arrow right)"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:21.821957" elapsed="0.855733"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:22.678692" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<arg>css=button[title="Next (arrow right)"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:22.678692" elapsed="0.213197"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-10-29T18:41:22.891889" level="INFO">Clicks the element 'css=button[title="Next (arrow right)"]'.</msg>
+<arg>css=button[title="Next (arrow right)"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-10-29T18:41:22.891889" elapsed="0.287050"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-29T18:41:28.180192" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-29T18:41:23.178939" elapsed="5.001253"/>
+</kw>
+<status status="PASS" start="2024-10-29T18:41:10.056345" elapsed="18.124860"/>
+</test>
+<status status="PASS" start="2024-10-29T18:41:09.902903" elapsed="18.410539"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Primeiro Teste">Primeiro Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
